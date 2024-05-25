@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="0" failed="0" skipped="7">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-20T17:10:56 IST" name="Default suite" finished-at="2024-05-20T17:10:57 IST" duration-ms="418">
+    <groups>
+      <group name="retestig">
+        <method signature="Annotations.FourthTest3()[pri:0, instance:AlertsinSelenium.Annotations@51bd8b5c]" name="FourthTest3" class="AlertsinSelenium.Annotations"/>
+      </group> <!-- retestig -->
+      <group name="Sanity">
+        <method signature="Annotations.ThirdTest3()[pri:-122, instance:AlertsinSelenium.Annotations@51bd8b5c]" name="ThirdTest3" class="AlertsinSelenium.Annotations"/>
+      </group> <!-- Sanity -->
+      <group name="regression">
+        <method signature="Annotations.SecondTest2()[pri:1, instance:AlertsinSelenium.Annotations@51bd8b5c]" name="SecondTest2" class="AlertsinSelenium.Annotations"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2024-05-20T17:10:56 IST" name="Default test" finished-at="2024-05-20T17:10:57 IST" duration-ms="418">
+      <class name="AlertsinSelenium.Annotations">
+        <test-method is-config="true" signature="Beforesuite()[pri:0, instance:AlertsinSelenium.Annotations@51bd8b5c]" started-at="2024-05-20T17:10:56 IST" name="Beforesuite" finished-at="2024-05-20T17:10:56 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforesuite -->
+        <test-method is-config="true" signature="before_test()[pri:0, instance:AlertsinSelenium.Annotations@51bd8b5c]" started-at="2024-05-20T17:10:56 IST" name="before_test" finished-at="2024-05-20T17:10:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_test -->
+        <test-method is-config="true" signature="Before_class()[pri:0, instance:AlertsinSelenium.Annotations@51bd8b5c]" started-at="2024-05-20T17:10:56 IST" name="Before_class" finished-at="2024-05-20T17:10:56 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_class -->
+        <test-method is-config="true" signature="Before_method(java.lang.String,java.lang.String)[pri:0, instance:AlertsinSelenium.Annotations@51bd8b5c]" started-at="2024-05-20T17:10:56 IST" name="Before_method" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1716205256906" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'A' is required by BeforeMethod on method Before_method but has not been marked @Optional or defined
+in C:\Users\lokes\AppData\Local\Temp\testng-eclipse-736219509\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'A' is required by BeforeMethod on method Before_method but has not been marked @Optional or defined
+in C:\Users\lokes\AppData\Local\Temp\testng-eclipse-736219509\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_method -->
+        <test-method signature="FourthTest3()[pri:0, instance:AlertsinSelenium.Annotations@51bd8b5c]" started-at="2024-05-20T17:10:56 IST" name="FourthTest3" description="Fourth Test case" finished-at="2024-05-20T17:10:56 IST" duration-ms="1" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'A' is required by BeforeMethod on method Before_method but has not been marked @Optional or defined
+in C:\Users\lokes\AppData\Local\Temp\testng-eclipse-736219509\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'A' is required by BeforeMethod on method Before_method but has not been marked @Optional or defined
+in C:\Users\lokes\AppData\Local\Temp\testng-eclipse-736219509\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FourthTest3 -->
+        <test-method is-config="true" signature="After_method()[pri:0, instance:AlertsinSelenium.Annotations@51bd8b5c]" started-at="2024-05-20T17:10:56 IST" name="After_method" finished-at="2024-05-20T17:10:56 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_method -->
+        <test-method is-config="true" signature="Before_method(java.lang.String,java.lang.String)[pri:0, instance:AlertsinSelenium.Annotations@51bd8b5c]" started-at="2024-05-20T17:10:56 IST" name="Before_method" finished-at="2024-05-20T17:10:56 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_method -->
+        <test-method signature="SecondTest2()[pri:1, instance:AlertsinSelenium.Annotations@51bd8b5c]" started-at="2024-05-20T17:10:56 IST" name="SecondTest2" description="Second Test case" finished-at="2024-05-20T17:10:56 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'A' is required by BeforeMethod on method Before_method but has not been marked @Optional or defined
+in C:\Users\lokes\AppData\Local\Temp\testng-eclipse-736219509\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'A' is required by BeforeMethod on method Before_method but has not been marked @Optional or defined
+in C:\Users\lokes\AppData\Local\Temp\testng-eclipse-736219509\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondTest2 -->
+        <test-method is-config="true" signature="After_method()[pri:0, instance:AlertsinSelenium.Annotations@51bd8b5c]" started-at="2024-05-20T17:10:57 IST" name="After_method" finished-at="2024-05-20T17:10:57 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_method -->
+        <test-method is-config="true" signature="Before_method(java.lang.String,java.lang.String)[pri:0, instance:AlertsinSelenium.Annotations@51bd8b5c]" started-at="2024-05-20T17:10:57 IST" name="Before_method" finished-at="2024-05-20T17:10:57 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_method -->
+        <test-method signature="SecondTest2()[pri:1, instance:AlertsinSelenium.Annotations@51bd8b5c]" started-at="2024-05-20T17:10:57 IST" name="SecondTest2" description="Second Test case" finished-at="2024-05-20T17:10:57 IST" duration-ms="1" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'A' is required by BeforeMethod on method Before_method but has not been marked @Optional or defined
+in C:\Users\lokes\AppData\Local\Temp\testng-eclipse-736219509\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'A' is required by BeforeMethod on method Before_method but has not been marked @Optional or defined
+in C:\Users\lokes\AppData\Local\Temp\testng-eclipse-736219509\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondTest2 -->
+        <test-method is-config="true" signature="After_method()[pri:0, instance:AlertsinSelenium.Annotations@51bd8b5c]" started-at="2024-05-20T17:10:57 IST" name="After_method" finished-at="2024-05-20T17:10:57 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_method -->
+        <test-method is-config="true" signature="Before_method(java.lang.String,java.lang.String)[pri:0, instance:AlertsinSelenium.Annotations@51bd8b5c]" started-at="2024-05-20T17:10:57 IST" name="Before_method" finished-at="2024-05-20T17:10:57 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_method -->
+        <test-method signature="SecondTest2()[pri:1, instance:AlertsinSelenium.Annotations@51bd8b5c]" started-at="2024-05-20T17:10:57 IST" name="SecondTest2" description="Second Test case" finished-at="2024-05-20T17:10:57 IST" duration-ms="1" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'A' is required by BeforeMethod on method Before_method but has not been marked @Optional or defined
+in C:\Users\lokes\AppData\Local\Temp\testng-eclipse-736219509\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'A' is required by BeforeMethod on method Before_method but has not been marked @Optional or defined
+in C:\Users\lokes\AppData\Local\Temp\testng-eclipse-736219509\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondTest2 -->
+        <test-method is-config="true" signature="After_method()[pri:0, instance:AlertsinSelenium.Annotations@51bd8b5c]" started-at="2024-05-20T17:10:57 IST" name="After_method" finished-at="2024-05-20T17:10:57 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_method -->
+        <test-method is-config="true" signature="Before_method(java.lang.String,java.lang.String)[pri:0, instance:AlertsinSelenium.Annotations@51bd8b5c]" started-at="2024-05-20T17:10:57 IST" name="Before_method" finished-at="2024-05-20T17:10:57 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_method -->
+        <test-method signature="ThirdTest3()[pri:-122, instance:AlertsinSelenium.Annotations@51bd8b5c]" started-at="2024-05-20T17:10:57 IST" name="ThirdTest3" description="Third Test case" finished-at="2024-05-20T17:10:57 IST" depends-on-methods="SecondTest2()" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'A' is required by BeforeMethod on method Before_method but has not been marked @Optional or defined
+in C:\Users\lokes\AppData\Local\Temp\testng-eclipse-736219509\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'A' is required by BeforeMethod on method Before_method but has not been marked @Optional or defined
+in C:\Users\lokes\AppData\Local\Temp\testng-eclipse-736219509\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ThirdTest3 -->
+        <test-method is-config="true" signature="After_method()[pri:0, instance:AlertsinSelenium.Annotations@51bd8b5c]" started-at="2024-05-20T17:10:57 IST" name="After_method" finished-at="2024-05-20T17:10:57 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_method -->
+        <test-method is-config="true" signature="Before_method(java.lang.String,java.lang.String)[pri:0, instance:AlertsinSelenium.Annotations@51bd8b5c]" started-at="2024-05-20T17:10:57 IST" name="Before_method" finished-at="2024-05-20T17:10:57 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_method -->
+        <test-method signature="FirstTest1(java.lang.String,java.lang.String)[pri:2, instance:AlertsinSelenium.Annotations@51bd8b5c]" started-at="2024-05-20T17:10:57 IST" name="FirstTest1" description="First Test case" data-provider="Sampledata" finished-at="2024-05-20T17:10:57 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FirstName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Last Name]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'A' is required by BeforeMethod on method Before_method but has not been marked @Optional or defined
+in C:\Users\lokes\AppData\Local\Temp\testng-eclipse-736219509\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'A' is required by BeforeMethod on method Before_method but has not been marked @Optional or defined
+in C:\Users\lokes\AppData\Local\Temp\testng-eclipse-736219509\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstTest1 -->
+        <test-method is-config="true" signature="After_method()[pri:0, instance:AlertsinSelenium.Annotations@51bd8b5c]" started-at="2024-05-20T17:10:57 IST" name="After_method" finished-at="2024-05-20T17:10:57 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_method -->
+        <test-method is-config="true" signature="Before_method(java.lang.String,java.lang.String)[pri:0, instance:AlertsinSelenium.Annotations@51bd8b5c]" started-at="2024-05-20T17:10:57 IST" name="Before_method" finished-at="2024-05-20T17:10:57 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_method -->
+        <test-method signature="FirstTest1(java.lang.String,java.lang.String)[pri:2, instance:AlertsinSelenium.Annotations@51bd8b5c]" started-at="2024-05-20T17:10:57 IST" name="FirstTest1" description="First Test case" data-provider="Sampledata" finished-at="2024-05-20T17:10:57 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lokesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Varma]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'A' is required by BeforeMethod on method Before_method but has not been marked @Optional or defined
+in C:\Users\lokes\AppData\Local\Temp\testng-eclipse-736219509\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'A' is required by BeforeMethod on method Before_method but has not been marked @Optional or defined
+in C:\Users\lokes\AppData\Local\Temp\testng-eclipse-736219509\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstTest1 -->
+        <test-method is-config="true" signature="After_method()[pri:0, instance:AlertsinSelenium.Annotations@51bd8b5c]" started-at="2024-05-20T17:10:57 IST" name="After_method" finished-at="2024-05-20T17:10:57 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_method -->
+        <test-method is-config="true" signature="After_class()[pri:0, instance:AlertsinSelenium.Annotations@51bd8b5c]" started-at="2024-05-20T17:10:57 IST" name="After_class" finished-at="2024-05-20T17:10:57 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_class -->
+        <test-method is-config="true" signature="After_test()[pri:0, instance:AlertsinSelenium.Annotations@51bd8b5c]" started-at="2024-05-20T17:10:57 IST" name="After_test" finished-at="2024-05-20T17:10:57 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_test -->
+        <test-method is-config="true" signature="aftersuite()[pri:0, instance:AlertsinSelenium.Annotations@51bd8b5c]" started-at="2024-05-20T17:10:57 IST" name="aftersuite" finished-at="2024-05-20T17:10:57 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- AlertsinSelenium.Annotations -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
